@@ -9,6 +9,7 @@
    <link rel="icon" type="image/x-icon" href="https://github.com/akin-holo/image-preview/blob/main/logo.png?raw=true"/>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="style.css">
+   <!-- <link rel="stylesheet" href="hamburger.css"> -->
 
 
 
@@ -31,13 +32,15 @@
    <header>
       <nav>
          <img src="asset/medilab-logo.png" alt="medilab logo"/>
+         <input type="checkbox" class="toggle-menu">
+         <div class="hamburger"></div>
          <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#Service">Service</a></li>
             <li><a href="#contact">Contact</a></li>
          </ul>
-         <button>Make an Appointment</button>
+         <button class="appointment">Make an Appointment</button>
       </nav>
    </header>
 
@@ -88,8 +91,6 @@
          </div>
          <small>&copy;2025</small>
       </div>
-
-      <!-- copyright -->
    </footer>
 </body>
 </html>
